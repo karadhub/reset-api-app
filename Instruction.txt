@@ -1,0 +1,43 @@
+🧩 Task 1 – CI/CD + Containerization (45 mins)
+Goal: See how he automates build & deploy.
+Scenario:
+ Mahad IT runs a small Node.js API service that must be containerized and automatically deployed on each Git push.
+Instructions:
+1.	Create a small Node.js “Hello Mahad” API.
+
+2.	Write a Dockerfile to containerize it.
+
+3.	Create a GitHub Actions workflow (or Jenkinsfile) that:
+
+○	Builds and pushes the Docker image to Docker Hub (or GHCR).
+
+○	Runs the container automatically (locally or on minikube).
+
+4.	Add a simple README with run instructions.
+
+________________________________________
+🧱 Task 2 – Infrastructure & Monitoring (30 mins)
+Goal: Check Terraform + observability mindset.
+Instructions:
+1.	Using Terraform, create one VM instance on GCP or AWS Free Tier.
+
+2.	Install Prometheus node exporter on it (manual or script).
+
+3.	Output the instance public IP from Terraform.
+
+4.	Write 3 lines explaining how you would connect Grafana to visualize metrics.
+
+
+________________________________________
+💡 Task 3 – Troubleshooting (15 mins)
+Scenario:
+ A Jenkins build fails with:
+docker: Error response from daemon: conflict: unable to delete image (must be forced) - image is being used by stopped container
+
+________________________________________
+Submission
+●	GitHub Repo link
+
+●	Short README (setup + explanation)
+
+Optional: Screenshot of running container or Terraform output
