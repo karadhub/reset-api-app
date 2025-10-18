@@ -40,6 +40,7 @@ curl http://localhost:3000/
 # stop
 docker stop mahad
 ```
+<img width="421" height="159" alt="image" src="https://github.com/user-attachments/assets/c4ab748e-730e-434c-a8ea-cd39e2780354" />
 
 ### CI with GitHub Actions (GHCR by default)
 
