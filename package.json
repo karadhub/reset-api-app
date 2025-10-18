@@ -1,0 +1,21 @@
+{
+  "name": "mahad-hello-api",
+  "version": "1.0.0",
+  "description": "Simple Node.js API that says Hello Mahad",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
